@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> 
-
+#include <stdlib.h>
 /**
  * main - Prints the alphabetic
  *
@@ -8,12 +7,11 @@
  */
 int main(void)
 {
-	int alph; 
-
-	for (alph ='a'; alph <='z'; alph++)
+	int alph;
+	for (alph = 'a'; alph <= 'z'; alph++)
 	{
 		putchar(alph);
 	}
 	putchar('\n');
-	return (0); 
+	return (0);
 }
