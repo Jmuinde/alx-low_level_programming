@@ -3,7 +3,7 @@
 /**
  *_strlen - returns length of  a string
  *@*s: string to be evaluated for lenght
- *@s: string length
+ *@s: stringto count
  *Retrun: length of the string
  *
  */
