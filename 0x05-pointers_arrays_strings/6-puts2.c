@@ -2,8 +2,7 @@
 
 /**
  * puts2 - the print function
- *
- * @str - string whose characters are to be printed 
+ * @str: string whose characters are to be printed 
  * Return - void 
  */
 void puts2(char *str)
