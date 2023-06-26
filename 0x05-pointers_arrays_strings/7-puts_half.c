@@ -2,9 +2,9 @@
 
 /**
  * puts_half - the function to be called
- * @str - string input to be halfed
+ * @str: string input to be halfed
  *
- * Return: void 
+ * Return: void
  */
 void puts_half(char *str)
 {
