@@ -11,7 +11,7 @@
 void randompassword(int n)
  {
 	char charstopickfrom[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()";
-	char password[n + 1];
+	char password[n];
 	int i;
 	
 	srand(time(0));
