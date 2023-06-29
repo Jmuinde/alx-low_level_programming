@@ -1,10 +1,10 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strcat - concatenate two strings
  * @dest : pointer
- * @src : pointer 
- * Return void.
+ * @src : pointer
+ * Return: Always.
  */
 char *_strcat(char *dest, char *src)
 {
