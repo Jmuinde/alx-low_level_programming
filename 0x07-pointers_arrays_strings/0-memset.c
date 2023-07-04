@@ -9,13 +9,13 @@
  *
  * Return: a pointer to the memory area @s
  */
-char *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char c, unsigned int n)
 {
 	unsigned int j;
 
 	for (j = 0; j < n; j++)
 	{
-		s[j] = b;
+		s[j] = c;
 	}
 
 	return (s);
