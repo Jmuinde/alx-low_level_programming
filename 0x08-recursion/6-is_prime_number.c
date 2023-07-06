@@ -20,7 +20,6 @@ int prime2(int a, int b)
  * @n: Number Integer
  *
  * Return: 1 on sucesss and -1 otherwise
- * 
  */
 int is_prime_number(int n)
 {
