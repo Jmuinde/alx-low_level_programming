@@ -19,8 +19,8 @@ int prime2(int a, int b)
  * is_prime_number - checks if a number is prime
  * @n: Number Integer
  *
- * Return: 1 on sucesss and -1 otherwise 
- */
+ * Return: 1 on sucesss and -1 otherwise
+ * */
 int is_prime_number(int n)
 {
 	if (n <= 1)
