@@ -1,4 +1,4 @@
 #ifndef FUNCTION_MACRO_H
 #define FUNCTION_MACRO_H
-#define ABS(x) ((x<0)?(-x):(x))
+#define ABS(X) ((X<0)?(-X):(X))
 #endif
