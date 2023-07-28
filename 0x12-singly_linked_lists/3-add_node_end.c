@@ -1,5 +1,6 @@
-#include "lists.h"
 #include <stdlib.h>
+#include <stdio.h>
+#include <lists.h>
 /**
  * add_node_end - function to add a new node at the end of the existing structure node
  * @head: head pointer of the structure node
