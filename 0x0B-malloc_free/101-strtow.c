@@ -52,11 +52,9 @@ char **strtow(char *str)
 	words = count_word(str);
 	if (words == 0)
 		return (0);
-
 	split = (char **) malloc(sizeof(char *) * (words + 1));
 	if (split == 0)
 		return (0);
-
 	for (j = 0; j <= size; j++)
 	{
 		if (str[j] == ' ' || str[j] == '\0')
