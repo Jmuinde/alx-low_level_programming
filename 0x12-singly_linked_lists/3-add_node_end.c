@@ -1,43 +1,40 @@
-#include "lists.h"
-#include <stdio.h>
 #include <stdlib.h>
-
+#include <stdio.h>
+#include "lists.h"
 /**
- * add_node_end - a pinter function that adds a new node to the existing structure node at the end
- * @head: head pointer of the structer node
- * @str: pointer string
+ * add_node_end - a function that adds a new node
+ * at the end of a list_t list.
+ * @head: input
+ * @str: input
  * Return: 0
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
-	int a;
-	int x = 0;
-	list_t *add;
-	list_t *hold;
+	int i, n = 0;
+	list_t *new;
+	list_t *temp;
 
-	add = malloc(sizeof(list_t));
+	new = malloc(sizeof(list_t));
 
-	for (a = 0; str[a] != '\0'; a++)
+	for (i = 0; str[i] != '\0'; i++)
+		n++;
+
+	new->len = i;
+	new->str = strdup(str);
+	new->next = NULL;
+
+	if (*head == NULL)
 	{
-		x++;
+		*head = new;
+		return (new);
 	}
 
-	(*add).len = a;
-	(*add).str = strdup(str);
-	(*add).next = 0;
+	temp = *head;
 
-	if (*head == 0)
-	{
-		*head = add;
-		return (add);
-	}
+	while (temp->next != NULL)
+		temp = temp->next;
 
-	hold = *head;
+	temp->next = new;
 
-	while ((*hold).next != 0)
-		hold =(*hold).next;
-
-	(*hold).next = add;
-
-	return (add);
+	return (new);
 }
