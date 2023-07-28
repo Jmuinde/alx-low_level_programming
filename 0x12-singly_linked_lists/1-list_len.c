@@ -1,22 +1,18 @@
 #include "lists.h"
 
 /**
-* list_len - a function that returns the number
-*  of elements in a linked list_t list
-* @h: input
+* list_len - function to print number of elements in the structer node
+* @h: head pointer of the structer node
 * Return: 0
 */
 size_t list_len(const list_t *h)
 {
-	int len = 0;
+	int check_len = 0;
 
-	if (h == NULL)
-		return (0);
-
-	while (h != NULL)
+	while (h != 0)
 	{
-		len++;
-		h = h->next;
+		h = (*h).next;
+		check_len++;
 	}
-	return (len);
+	return (check_len);
 }
