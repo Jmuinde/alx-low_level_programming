@@ -23,8 +23,8 @@ list_t *add_node_end(list_t **head, const char *str)
 		x++;
 
 	(*add).len = a;
-	add->str = strdup(str);
-	add->next = 0;
+	(*add).str = strdup(str);
+	(*add).next = 0;
 
 	if (*head == 0)
 	{
