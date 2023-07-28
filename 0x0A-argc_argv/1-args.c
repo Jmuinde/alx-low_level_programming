@@ -1,18 +1,16 @@
 #include <stdio.h>
-#include "main.h"
-/**
- * main - main function
- * @argc: the parameters
- * @argv: pointer array
- * Return: upon excesion return 0
- */
-int main(int argc, __attribute__((unused)) char *argv[])
-{
-	int n;
+#include <stdlib.h>
 
-	for (n = 0; n < argc; n++)
-	{
-	}
-	printf("%d\n", n - 1);
+/**
+ * main -  the main funcion
+ *
+ * @argc: checks the number of arguments
+ * @argv: pointer variable
+ * Return: 0 when succesful
+ */
+int main(int argc, char **argv)
+{
+	(void) argv;
+	printf("%i\n", argc - 1);
 	return (0);
 }
