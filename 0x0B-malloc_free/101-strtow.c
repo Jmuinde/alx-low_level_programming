@@ -78,8 +78,6 @@ char **strtow(char *str)
 		else if (n++ == 0)
 			first = j;
 	}
-
 	split[x] = 0;
-
 	return (split);
 }
