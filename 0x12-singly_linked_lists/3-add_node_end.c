@@ -1,6 +1,5 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "lists.h"
+#include <stdlib.h>
 /**
  * add_node_end - a function that adds a new node
  * at the end of a list_t list.
