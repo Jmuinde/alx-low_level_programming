@@ -1,5 +1,5 @@
-#ifndef STRUCTERS
-#define STRUCTERS
+#ifndef DOG_H
+#define DOG_H
 /**
  * struct dog - description for the  pet
  * @name: name of the dog
@@ -14,6 +14,9 @@ typedef struct dog
 	float age;
 	char *owner;
 } dog;
-#endif
+
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
+int _putchar(char c);
+dog_t *new_dog(char *name, float age, char *owner);
+#endif
