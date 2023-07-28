@@ -11,17 +11,17 @@ size_t print_list(const list_t *h)
 {
 	int check_size = 0;
 
-	while (h != NULL)
+	while (h != 0)
 	{
-		if (h->str == NULL)
+		if ((*h).str == 0)
 		{
 			printf("[%d] %s\n", 0, "(nil)");
 		}
 		else
 		{
-			printf("[%d] %s\n", h->len, h->str);
+			printf("[%d] %s\n", (*h).len, (*h).str);
 		}
-		h = h->next;
+		h = (*h).next;
 		check_size++;
 	}
 
