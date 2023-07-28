@@ -24,9 +24,9 @@ list_t *add_node(list_t **head, const char *str)
 	for (n = 0; str[n] != '\0'; n++)
 		check_size++;
 
-	add->len = n;
-	add->str = strdup(str);
-	add->next = *head;
+	(*add).len = n;
+	(*add).str = strdup(str);
+	(*add).next = *head;
 
 	*head = add;
 
