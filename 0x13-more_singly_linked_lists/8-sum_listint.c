@@ -15,7 +15,7 @@ int sum_listint(listint_t *head)
 
 	while (head != 0)
 	{
-		summ =+ (*head).n;
+		summ += (*head).n;
 		head = (*head).next;
 	}
 
