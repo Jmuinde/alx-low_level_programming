@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * add_nodeint_end - function to add a new node at the 
+ * add_nodeint_end - function to add a new node at the
  * end of a linked list
  * @head: head pointer
  * @n: constant interger variaable
