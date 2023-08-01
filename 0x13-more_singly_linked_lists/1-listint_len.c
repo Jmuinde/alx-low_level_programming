@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* listint_len -function to count the number of elements 
+* listint_len -function to count the number of elements
 * in a linked list
 * @h: head pointer
 * Return: the count
@@ -15,8 +15,8 @@ size_t listint_len(const listint_t *h)
 
 	while (h != 0)
 	{
-		num++;
 		h = (*h).next;
+		num++;
 
 	}
 	return (num);
