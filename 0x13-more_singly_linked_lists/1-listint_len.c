@@ -12,6 +12,7 @@ size_t listint_len(const listint_t *h)
 
 	if (h == 0)
 		return (0);
+
 	while (h != 0)
 	{
 		h = (*h).next;
