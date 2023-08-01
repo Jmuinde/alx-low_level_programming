@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
+
 /**
  * print_listint - function to print the elements of a linked list
  * listint_t
@@ -10,7 +11,7 @@ size_t print_listint(const listint_t *h)
 {
 	int check_size = 0;
 
-	if (h == 0)
+	if (h == NULL)
 		return (0);
 	while (h != NULL)
 	{
