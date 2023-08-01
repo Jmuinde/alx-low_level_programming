@@ -3,7 +3,6 @@
 
 /**
  * free_listint2 - function to free allocated memory of a list
- * 
  * @head: head pointer
  * Return: nothing
  */
