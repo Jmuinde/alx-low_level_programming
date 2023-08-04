@@ -3,7 +3,7 @@
 /**
  * binary_to_uint - function to convert binary number
  * to unsinged integer
- * @b: constant pinter variable 
+ * @b: constant pinter variable
  * Return: converted integer or 0
  */
 unsigned int binary_to_uint(const char *b)
