@@ -29,7 +29,5 @@ unsigned int binary_to_uint(const char *b)
 		k--;
 	}
 
-
 	return (pow);
-
 }
