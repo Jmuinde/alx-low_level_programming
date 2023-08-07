@@ -30,7 +30,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (pt == NULL)
 		return (0);
 
-	ptr  = open(filename, O_RDONLY);
+	ptr = open(filename, O_RDONLY);
 
 	if (ptr == -1)
 		return (free(pt), 0);
