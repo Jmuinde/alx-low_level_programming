@@ -12,7 +12,7 @@
  * @filename: ponter character to the file
  * @letters: count of letters to be read and printed
  * Return: the acctual number of letters that have been read and printed,0 in cases
- * where the  does mot opene or read, 0 when there  filename is null, 0 if
+ * where the  does mot opene or read.0 when there  filename is null. 0 if
  * write call fails
  */
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -21,7 +21,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char *pt;
 	int count;
 	int out;
-						
+	
 	if (filename == NULL)
 		return (0);
 
